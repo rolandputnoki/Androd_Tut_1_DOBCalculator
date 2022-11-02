@@ -48,6 +48,14 @@
         android:text="Pick a date"
         android:textColor="@color/lightGray" />
 
+    <Button
+        android:id="@+id/btnTimePicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/btnText"
+        android:text="Pick a Time"
+        android:textColor="@color/lightGray" />
+
     <TextView
         android:id="@+id/selectedDateText"
         android:layout_width="wrap_content"
@@ -65,6 +73,24 @@
         android:textSize="20sp"
         android:textStyle="bold"></TextView>
 
+
+    <TextView
+        android:id="@+id/selectedTimeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00:00"
+        android:textColor="@color/TextColor"
+        android:textSize="25sp"
+        android:textStyle="bold"></TextView>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SELECTED TIME"
+        android:textColor="@color/hintText"
+        android:textSize="20sp"
+        android:textStyle="bold"></TextView>
 
     <TextView
         android:id="@+id/MinutesDiff"
